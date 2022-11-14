@@ -1,16 +1,5 @@
 let div1=document.createElement('div')
 
-// let start=setInterval(startTimer,1000)
-// function startTimer (){
-//     timer=timer--
-//     if (timer===0){
-//         timer='Happy Independence Day'
-//         clearInterval(start)
-//     }
-//     div1.innerHTML=timer
-//     timer--
-// }
-
 function ten(){
     div1.innerHTML='10'
     setTimeout(nine,1000)
@@ -57,4 +46,31 @@ function ten(){
 
 }
 ten()
-document.body.append(div1)
+
+// document.body.append(div1)
+
+// let div=document.querySelector('.center')
+
+// let timer=3
+// let started=setInterval(startTimer,1000)
+
+// function startTimer(){
+//     timer=timer--
+//     if (timer<1) {
+//         timer='Happy Independence day'
+//         clearInterval(started)
+//     }
+//     div.innerHTML=timer
+//     timer--
+}
+
+// let start=setInterval(startTimer,1000)
+// function startTimer (){
+//     timer=timer--
+//     if (timer===0){
+//         timer='Happy Independence Day'
+//         clearInterval(start)
+//     }
+//     div1.innerHTML=timer
+//     timer--
+// }
