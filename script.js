@@ -47,7 +47,7 @@ function ten(){
 }
 ten()
 
-// document.body.append(div1)
+document.body.append(div1)
 
 // let div=document.querySelector('.center')
 
